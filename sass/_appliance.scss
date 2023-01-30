@@ -1,0 +1,56 @@
+.appliances{
+    padding-bottom: 50px;
+   
+    .appliance-list {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+        position: relative;
+        display: block;
+
+        &::after{
+          // content: "";
+          // position: absolute;
+          // background: #1c1f1d;
+          // width: 100%;
+          // height: 0.5px;
+          // top: 130px;
+          // left: 50%;
+          // transform: translate(-50%, -50%);
+          // max-width: 1090px;
+          content: "";
+          position: absolute;
+          background: #ecf0ed;
+          width: 100%;
+          height: 1px;
+          top: 100%;
+          left: 50%;
+          transform: translate(-50%, 50%);
+          max-width: 995px;
+          margin-top: 30px;
+          
+        }
+
+        @media screen and (min-width: 500px) {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+        }
+        @media screen and (min-width: 1024px) {
+            display: grid;
+            grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        }
+      }
+
+      .appliance-item{
+        margin-bottom: 25px;
+      }
+
+      .appliance-title{
+        font-family: $fontFamily;
+        font-size: 16px;
+      }
+
+      .appliance-icon {
+        font-size: 50px;
+      }
+}

@@ -1,0 +1,50 @@
+.nav{
+    padding-bottom: 40px;
+    position: relative;
+    display: block;
+
+    &::after{
+        content: '';
+        position: absolute;
+        background: rgb(95, 95, 95);
+        width: 100%;
+        height: 1px;
+        top: 60px;
+        left: 0;
+    }
+
+    &--list {
+        display: none;
+        @media screen  and(min-width: 1024px){
+            display: flex;
+            gap: 15px;
+        }
+    }
+
+    &--link {
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        
+    }
+
+    &-logo-image {
+        width: 100%;
+        height: 31px;
+      }
+    &-menu{
+        @media screen and (min-width: 1024px) {
+            display: none;
+        }
+      }
+
+      .cart-menu{
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+      }
+}
+
+
+
+

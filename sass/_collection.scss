@@ -1,0 +1,42 @@
+.collections{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: $fontFamily;
+
+    .collection-title {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 20px;
+
+        @media screen and(min-width: 768px) {
+            font-size: 32px;
+        }
+        @media screen and(min-width: 1024x) {
+            font-size: 40px;
+        }
+      }
+
+      .collection-description-text{
+        text-align: center;
+        width: 45%;
+        margin: 0 auto;
+      }
+
+      .collection-item-wrapper {
+        margin-top: 50px;
+
+        @media screen and(min-width: 768px) {
+            display: grid;
+            margin-top: 50px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+      }
+      .collection-item {
+        padding-bottom: 37px;
+      }
+      .collection-img {
+        margin-bottom: 18px;
+      }
+
+}
