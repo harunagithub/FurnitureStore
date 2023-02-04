@@ -11,6 +11,15 @@
 @import '_service.scss';
 @import '_collection.scss';
 @import '_office.scss';
+@import '_work.scss';
+@import '_space.scss';
+@import '_about-hero.scss';
+@import '_story.scss';
+@import '_perfect.scss';
+@import '_founder.scss';
+@import '_imglist.scss';
+@import '_contact.scss';
+
 
 
 *{
@@ -19,10 +28,11 @@
     margin: 0;
 }
 .container{
-    max-width: 1380px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
 
 img {
     width: 100%;

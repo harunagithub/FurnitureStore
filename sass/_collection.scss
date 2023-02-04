@@ -18,8 +18,11 @@
 
       .collection-description-text{
         text-align: center;
-        width: 45%;
+        width: 100%;
         margin: 0 auto;
+        max-width: 450px;
+
+       
       }
 
       .collection-item-wrapper {

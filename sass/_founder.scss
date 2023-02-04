@@ -1,0 +1,45 @@
+.founders{
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .founders-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+        max-width: 600px;
+      }
+      .founder-qoutes {
+        // margin-bottom: 40px;
+        margin-top: 10px;
+        font-size: 19px;
+        color: $textColor;
+
+        @media screen and(min-width: 768px) {
+            font-size: 23px;
+        }
+        @media screen and(min-width: 1366px) {
+            font-size: 26px;
+        }
+      }
+
+      i{
+        color: $buttonBgColor;
+        font-size: 25px;
+      }
+
+      .founder-detail-wrapper {
+        margin-top: 25px;
+
+        @media screen and(min-width:768px) {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+      }
+
+      .img-founder {
+        height: 60px;
+    }
+}

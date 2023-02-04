@@ -1,0 +1,62 @@
+.about{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/about-hero-img.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    min-height: 300px;
+
+    .about-column-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 47%;
+        transform: translate(-50%, -50%);
+        
+
+        @media screen and(min-width: 768px) {
+          display: flex;
+          gap: 156px;
+          width: 100%;
+          max-width: 613px;
+        }
+
+      }
+
+      .border-text-description{
+        position: relative;
+        display: block;
+        margin-top: 7px;
+
+        ::after{
+            content: '';
+            position: absolute;
+            background-color: greenyellow;
+            width: 30%;
+            height: 1px;
+            top: -27%;
+            left: 0;
+            margin-bottom: 20px;
+        }
+      }
+
+      .about-title {
+        font-size: 36px;
+        color: #fff;
+        font-family: $fontFamily;
+
+        @media screen and(min-width: 768px) {
+            font-size: 56px;
+        }
+        @media screen and(min-width: 1024px) {
+            font-size: 53px;
+        }
+      }
+
+      .about-description{
+        color: #fff;
+        margin-top: 44px;
+        font-family: $fontFamily2;
+        font-size: 14px;
+
+      }
+}

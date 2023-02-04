@@ -1,0 +1,121 @@
+.works{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .work-title {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: $fontFamily;
+        color: rgb(139, 134, 152);
+
+        @media screen and(min-width:1024px) {
+            font-size: 15px;
+        }
+      }
+    .work-column-wrapper {
+        margin-bottom: 30px;
+
+        @media screen and(min-width: 768px) {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+      }
+
+      .work-column-img-wrapper {
+        
+       @media screen and(min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+       }
+      }
+
+      .work-column-title {
+        font-size: 28px;
+        font-family: $fontFamily;
+        margin-bottom: 10px;
+
+
+        @media screen and(min-width: 768px) {
+            font-size: 32px;
+        }
+        @media screen and(min-width: 1024px) {
+            font-size: 40px;
+        }
+      }
+
+      .work-column-description {
+        color: rgb(139, 134, 152);
+        font-size: 14px;
+        line-height: 1.5;
+
+        @media screen and(min-width: 768px) {
+            font-size: 16px;
+            width: 100%;
+            max-width: 521px;
+        }
+
+      }
+
+      .work-inner-column-img {
+        margin-bottom: 45px;
+      }
+      .work-img{
+        margin-bottom: 10px;
+      }
+      .work-img-title {
+        font-size: 18px;
+        font-family: $fontFamily;
+        margin-bottom: 10px;
+        line-height: 1.5;
+
+        @media screen and(min-width: 768px) {
+            font-size: 23px;
+        }
+        @media screen and(min-width: 1024px) {
+            font-size: 25px;
+        }
+      }
+
+      .work-img-link {
+        font-size: 16px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: rgb(38, 34, 47);
+        text-decoration: none;
+        border-bottom: 1px solid cyan;
+        width: 100%;
+        max-width: 110px;
+
+        &:hover{
+            border-bottom: 1px solid rgb(9, 36, 36);
+            width: 100%;
+            max-width: 110px;
+            transition: all 0.7s;
+        }
+        
+      }
+//       .work-link-wrapper{
+//         display: block;
+//         position: relative;
+//         border: 1px solid grey;
+//         width: 100%;
+//         max-width: 100px;
+
+
+//         &:hover::after{
+//             content: '';
+//             position: absolute;
+//             background: darkslategray;
+//             width: 100%;
+//             height: 1px;
+//             bottom: 0;
+//             left: 0;
+//             transition: width 2s;
+//             max-width: 100px;
+  
+//         }
+
+// }
+
+}

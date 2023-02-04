@@ -1,0 +1,102 @@
+.stories{
+    padding-top: 50px;
+
+    // .stroies-container{
+    //     position: relative;
+    // }
+
+    .story-column-wrapper {
+        // padding-bottom: 50px;
+
+        @media screen and (min-width: 768px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: baseline;
+        }
+      }
+
+      .story-column {
+        padding-bottom: 30px;
+      }
+
+    .story-header-title {
+        font-size: 12px;
+        font-family: $fontFamily;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+
+
+        @media screen and(min-width: 768px) {
+            font-size: 14px;
+        }
+        
+      }
+
+      .story-column-title {
+        font-size: 28px;
+        font-family: $fontFamily;
+        padding-bottom: 20px;
+        position: relative;
+        display: block;
+
+        &::after{
+            content: "";
+            position: absolute;
+            background-color: $buttonBgColor;
+            width: 10%;
+            height: 2px;
+            top: 100px;
+            left: 0;
+        }
+
+        @media screen and(min-width: 768px) {
+            font-size: 32px;
+        }
+        @media screen and(min-width: 1024px) {
+            font-size: 40px;
+        }
+    }
+
+    .story-column-description{
+        font-size: 14px;
+        color: $textColor;
+        margin-bottom: 30px;
+        line-height: 1.5;
+        font-family: $fontFamily2;
+        font-weight: $regular;
+
+        @media screen and(min-width:768px) {
+            font-size: 16px;
+        }
+    }
+
+    .story-img-container{
+        background-image: url('/images/about-img-1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60px;
+        min-height: 354px;
+        width: 100%;
+
+    }
+
+    .story-img-container{
+        position: relative;
+    }
+
+    .play-icon-wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .fa-circle-play{
+        font-size: 90px;
+        color: $buttonBgColor;
+        cursor: pointer;
+    }
+
+
+}

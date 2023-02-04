@@ -1,0 +1,29 @@
+.imgs{
+
+    .img-inner-wrapper {
+        margin-bottom: 20px;
+      }
+
+      .img-wrapper {
+
+        @media screen and(min-width: 768px) {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 10px;
+        }
+      }
+
+      .img-wrapper-2 {
+
+        @media screen and(min-width: 768px) {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 10px;
+        }
+      }
+
+      .img-group-item {
+        height: 231px;
+        object-fit: cover;
+      }
+}

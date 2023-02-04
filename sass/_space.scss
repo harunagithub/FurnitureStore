@@ -1,0 +1,80 @@
+.spaces{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/space-cta.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    min-height: 470px;
+
+    // .space-text-wrapper {
+    //     margin: 0 auto;
+    //     position: absolute;
+    //     left: 50%;
+    //     transform: translate(-50%, 100%);
+    //     width: 100%;
+    //     margin-top: 100px;
+        
+    //     @media screen and(min-width: 768px) {
+    //         width: 50%;
+    //     }
+    //   }
+    .space-container{
+        height: 100%;
+        position: relative;
+    }
+
+    .space-text-wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+
+        @media screen and(min-width: 768px) {
+            max-width: 803px;
+        }
+    }
+
+    .space-first-title {
+        color: #fff;
+        text-transform: uppercase;
+        font-family: $fontFamily;
+        font-size: 13px;
+        margin-bottom: 10px;
+        text-align: center;
+
+        @media screen and(min-width:1024) {
+            font-size: 16px;
+        }
+      }
+    .space-second-title {
+        color: #fff;
+        font-family: $fontFamily;
+        font-size: 32px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 30px;
+
+        @media screen and(min-width:768px) {
+            font-size: 56px;
+        }
+        @media screen and(min-width:1366px) {
+            font-size: 73px;
+        }
+
+      }
+
+      .space-btn {
+        padding: 12px 24px;
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+        background: #fdda4c;
+        border: none;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-top: 30px;
+        
+      }
+
+}
