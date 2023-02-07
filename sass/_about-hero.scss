@@ -6,43 +6,30 @@
     height: 60vh;
     min-height: 300px;
 
-    .about-column-wrapper {
-        position: absolute;
-        top: 50%;
-        left: 47%;
-        transform: translate(-50%, -50%);
-        
+    .hero-banner-main-wrapper {
+      position: absolute;
+      top: 65%;
+      left: 46%;
+      transform: translate(-50%, -50%);
+      
+    }
 
-        @media screen and(min-width: 768px) {
-          display: flex;
-          gap: 156px;
-          width: 100%;
-          max-width: 613px;
-        }
+    .hero-banner-title-wrapper {
+      margin-bottom: 25px;
 
+      @media screen and(min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: baseline;
       }
+    }
 
-      .border-text-description{
-        position: relative;
-        display: block;
-        margin-top: 7px;
 
-        ::after{
-            content: '';
-            position: absolute;
-            background-color: greenyellow;
-            width: 30%;
-            height: 1px;
-            top: -27%;
-            left: 0;
-            margin-bottom: 20px;
-        }
-      }
-
-      .about-title {
+    .hero-banner-title {
         font-size: 36px;
         color: #fff;
         font-family: $fontFamily;
+        margin-bottom: 3px;
 
         @media screen and(min-width: 768px) {
             font-size: 56px;
@@ -52,11 +39,34 @@
         }
       }
 
-      .about-description{
+  .about-description{
         color: #fff;
-        margin-top: 44px;
         font-family: $fontFamily2;
         font-size: 14px;
+      }
 
+    .hero-banner-border{
+      position: relative;
+      display: block;
+
+      &::after{
+        content: "";
+        position: absolute;
+        background-color: #fdda4c;
+        top: 13px;
+        left: 0;
+        width: 30%;
+        height: 1px;
+        min-width: 87px;
+      }
+    }
+
+      .hero-banner-text-wrapper {
+        @media screen and(min-width: 768px) {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          align-items: baseline;
+          
+        }
       }
 }

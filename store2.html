@@ -9,24 +9,24 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <header class="about">
+    <header class="store-white-bg">
        <!-- <div class="border-hero"> -->
-        <div class="container header-container hero-text-banner hero-text-container">
+        <div class="container header-container hero-text-container">
             <nav class="nav">
               <div id="mainListDiv" class="main-list-wrapper">
                 <div class="header-column-1">
                   <a class="nav-logo" href="index.html">
-                      <img src="/images/site-logo-light.svg" alt="Design Eco" class="nav-logo-image" />
+                      <img src="/images/site-logo-dark (1).svg" alt="Design Eco" class="nav-logo-image" />
                   </a>
                   <ul class="nav--list">
                       <li class="nav--item">
-                        <a class="nav--link nav--link-active" href="#">Store</a>
+                        <a class="nav--link nav--link-active  nav-store-link" href="store.html">Store</a>
                       </li>
                       <li class="nav--item">
-                        <a class="nav--link" href="#">Office</a>
+                        <a class="nav-store-link" href="about.html">Office</a>
                       </li>
                       <li class="nav--item">
-                        <a class="nav--link" href="#">Home Office</a>
+                        <a class="nav-store-link" href="services.html">Home Office</a>
                       </li>
                     </ul>
                 </div>
@@ -35,113 +35,162 @@
                   <ion-icon size="normal" class="nav-menu" name="menu-sharp"></ion-icon>
                   <ul class="nav--list">
                       <li class="nav--item">
-                        <a class="nav--link nav--link-active" href="about.html">About Us</a>
+                        <a class="nav-store-link nav--link-active" href="about.html">About</a>
                       </li>
                       <li class="nav--item">
-                        <a class="nav--link" href="contact.html">Contact</a>
+                        <a class="nav-store-link" href="contact.html">Contact Us</a>
                       </li>
                     </ul>
                     <input class="search" placeholder="search products" type="search" name="" id="">
-                    <ion-icon class="cart-menu" name="cart-outline"></ion-icon >
-                    <ion-icon class="chevron-right" name="chevron-forward-outline"></ion-icon>
-                    <ion-icon class="hidden" name="person"></ion-icon>
+                    <ion-icon class=" nav-store-icon" name="cart-outline"></ion-icon >
+                    <ion-icon class="nav-store-icon" name="chevron-forward-outline"></ion-icon>
+                    <ion-icon class="nav-store-icon" name="person"></ion-icon>
                 </div>
               </div>
             </nav>
-
-            <div class="hero-banner-main-wrapper">
-              <div class="hero-banner-title-wrapper">
-                <div class="hero-banner-column">
-                  <h1 class="hero-banner-title">Contact</h1>
-                </div>
-                <div class="hero-banner-column">
-                  <div class="hero-banner-border"></div>
-                </div>
-              </div>
-  
-              <div class="hero-banner-text-wrapper">
-                <div class="hero-banner-column-empty">
-                <!-- EMPTY -->
-                </div>
-                <div class="hero-banner-column-empty">
-                    <p class="about-description">
-                        Porta tellus suscipit eget arcu eu nec quis scelerisque nam vitae, 
-                        turpis integer iaculis tristique vivamus mattis egestas.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            </div>
-      </header>
-     <section class="maps">
-        <div class="container form-container">
-            <div class="map">
-                <iframe 
-                src="
-                https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49542.372615271786!2d-123.19631757174098!3d49.26217903851472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sgm!4v1675341010063!5m2!1sen!2sgm" 
-                width="600" height="450" style="border:0;" allowfullscreen="" 
-                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-            </div>
-        </div>
-     </section>
-     <section class="form">
-      <div class="container">
-          <div class="form-contact-title-wrap">
-            <div class="form-header-column">
-            <h3 class="form-title">Get in touch</h3>
-            </div>
-            <div class="form-header-column">
-            <div class="form-header-title-border"></div>
-            </div>
           </div>
-        <div class="form-column-wrapper">
-            <div class="form-column">
-            <div class="form-inner-column">
-                <i class="fa-sharp fa-solid fa-location-dot"></i>
-                <h4 class="form-inner-title">Address</h4>
+       <!-- </div> -->
+      </header>
+<!-- HEADER -->
+<section class="shops">
+    <div class="container">
+        <a href="#" class="shop-header-title">Home</a> /
+        <a href="#" class="shop-header-title">Shop</a>
+
+        <div class="shop-header-sub-title-wrap">
+            <h1 class="shop-header-sub-title">Shop</h1>
+        </div>
+    </div>
+</section>
+
+<section class="filters">
+    <div class="container">
+        <div class="filter-header-wrapper">
+            <div class="filter-header-column">
+                <div class="filter-inner-wrap">
+                    <i></i>
+                    <h6 class="filter-header-title-1">Filter</h6>
+                </div>
             </div>
-            <p class="form-text">123 Demo St, San Francisco, CA 45678, United States </p>
-            <h3 class="form-service-title">Custome service</h3>
-            <p class="form-service-text">Diam id quis quam pulvinar sodales fermentum, elit risus tristique praesent sit dictumst vel amet.</p>
-            <div class="form-list">
-                <div class="form-list-inner">
-                    <i class="fa-solid fa-phone-flip"></i>
-                    <p class="form-service-text">+1 123-456-7890</p>
-                </div>
-                <div class="form-list-inner">
-                    <i class="fa-solid fa-envelope"></i>
-                    <p class="form-service-text">mail@example.com</p>
-                </div>
-                <div class="form-list-inner">
-                    <i class="fa-solid fa-clock"></i>
-                    <p class="form-service-text">08.00 - 16.00 EST</p>
+            <div class="filter-header-column">
+                <div class="filter-inner-wrap">
+                <h6 class="filter-header-title-2">Default sorting</h6>
+                <i class="fa-light fa-chevron-down"></i>
+                <i></i>
+                <i></i>
                 </div>
             </div>
         </div>
-        <div class="form-column">
-          <form action="/action_page.php">
-            <label class="form-label-input" for="fname">Name*</label><br>
-            <input type="text" id="fname" name="fname" placeholder="Name" value=""><br>
-            <label class="form-label-input" for="email">Email*</label><br>
-            <input type="text" id="lname" name="lname" placeholder="Email" value=""><br><br>
-            <label class="form-label-input" for="textarea">Comment or Message*</label><br>
-            <textarea name="comment"  form="usrform"></textarea> <br>
-            <!-- <button type="submit" value="Submit"> -->
-            <button class="form-btn">Submit</button>
-          </form> 
-        </div>
-        </div>
+    </div>
+</section>
+<section class="image-filters">
+  <div class="container">
+    <div class="image-filter-wrapper">
+      <div class="image-filter-column">
+        <img src="/images/filterstore-img-9.jpg" alt="" class="image-filter-img">
+        <h5 class="image-filter-title">Iregn Black Set</h5>
+        <p class="image-filter-price">$128.40</p>
+        <span> 
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
       </div>
-     </section>
+      <div class="image-filter-column">
+        <img src="/images/filterstore-img-10.jpg" alt="" class="image-filter-img">
+        <h5 class="image-filter-title">Simple black in wood chair</h5>
+        <p class="image-filter-price">$98.99</p>
+        <span> 
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+      </div>
+      <div class="image-filter-column">
+        <img src="/images/filterstore-img-11.jpg" alt="" class="image-filter-img">
+        <h5 class="image-filter-title">Walnut Kayyu Cabinet</h5>
+        <p class="image-filter-price">$100.50</p>
+        <span> 
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+      </div>
+      <div class="image-filter-column">
+        <img src="/images/filterstore-img-12.jpg" alt="" class="image-filter-img">
+        <h5 class="image-filter-title">Wooden Essential Gadget Cabinet</h5>
+        <p class="image-filter-price">$59.80</p>
+        <span> 
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+          <span>
+          <ion-icon class="arrival-icon" name="star-outline"></ion-icon>
+          </span>
+      </div>
+      <!-- FILTER IMAGE ROW 4 -->
+    </div>
+     
+      <!-- FILTER IMAGE ROW 4 -->
+    </div>
+
+    <div class="imgage-filter-next-previous-icon-wrapper">
+        <div class="imgage-filter-next-previous-icon-wrapper">
+            <a href="store.html">
+            <span class="image-filter-number">1</span>
+            </a>
+            <a href="store2.html">
+            <span class="image-filter-number">2</span>
+           </a>
+           <a href="store.html">
+            <i class="fa-solid fa-arrow-right-long"></i>
+           </a>
+          </div>
+    </div>
+  </div>
+</section>
 
 
-
-
-
-
-
+ 
+<!-- SPACES -->
       <section class="spaces">
         <div class="container space-container">
           <div class="space-text-wrapper">
@@ -153,6 +202,9 @@
           </div>
         </div>
       </section>
+<!-- SPACES -->
+
+
 
 <!-- FOOTER SECTION -->
       <footer class="footer">
@@ -237,11 +289,9 @@
           </div>
           <p class="footer-copyright">&copy; <em id="date"></em>Copyright © 2023 Office Furniture Store</p>
           </div>
-        </div>
-        </footer>
+    </div>
+    </footer>
         
-
-
 <script src="/js/app.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

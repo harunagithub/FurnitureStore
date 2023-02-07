@@ -1,0 +1,115 @@
+    .nav-store-link {
+        color: $textColor;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: $fontFamily2;
+    }
+
+    .nav-store-icon i{
+        color: #000;
+        font-size: 20px;
+
+    }
+
+    .shop-header-sub-title-wrap {
+        padding-top: 40px;
+      }
+
+    .filters {
+        padding-top: 40px;
+
+        .filter-header-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+    
+          .filter-inner-wrap {
+            display: flex;
+            gap: 2px;
+          }
+      }
+
+
+    .image-filters{
+    padding-top: 10px;
+    padding-bottom: 100px;
+
+    .image-filter-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 50px;
+
+        @media screen and(min-width: 768px) {
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+    }
+
+    .image-filter-column{
+        margin-bottom: 20px;
+    }
+    .image-filter-img{
+        margin-bottom: 8px;
+    }
+
+    .image-filter-title{
+        font-size: 14px;
+        font-family: $fontFamily;
+        font-weight: $semiBold;
+        margin-bottom: 8px;
+
+    }
+
+    .image-filter-price{
+        margin-bottom: 8px;
+
+    }
+
+    .image-filter-price{
+        font-size: 12px;
+        color: $textColor;
+        font-family: $fontFamily2;
+        font-weight: 700;
+    }
+    .arrival-icon{
+        color: $textColor;
+        font-size: 12px;
+    }
+
+    .imgage-filter-next-previous-icon-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .image-filter-number {
+        border: 1px solid gray;
+        padding: 5px 11px;
+        color: $textColor;
+        font-family: $fontFamily2;
+        hei
+
+        &:hover{
+            background-color: grey;
+            transition: all 0.9s;
+            color: #000;
+            cursor: pointer;
+        }
+      }
+
+      .fa-arrow-right-long{
+        border: 1px solid gray;
+        padding: 6px 11px;
+        color: $textColor;
+        &:hover{
+            background-color: grey;
+            transition: all 0.9s;
+            color: #000;
+            cursor: pointer;
+        }
+
+      }
+}
