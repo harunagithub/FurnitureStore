@@ -1,3 +1,6 @@
+    .hidden-mobile{
+        display: none;
+    }
     .nav-store-link {
         color: $textColor;
         text-decoration: none;
@@ -5,9 +8,32 @@
         font-family: $fontFamily2;
     }
 
-    .nav-store-icon i{
+    .nav-store-icon{
         color: #000;
-        font-size: 20px;
+        font-size: 30px;
+
+    }
+
+    .shops{
+        padding-bottom: 50px;
+        padding-top: 50px;
+
+        .shop-header-title{
+            font-size: 12px;
+            font-family: $fontFamily;
+            color: $textColor;
+            text-decoration: none;
+        }
+
+        .shop-header-sub-title {
+            font-size: 40px;
+            font-family: $fontFamily;
+            color: $textColor;
+
+            @media screen and(min-width: 768px) {
+                font-size: 65px;
+            }
+        }
 
     }
 
@@ -17,6 +43,11 @@
 
     .filters {
         padding-top: 40px;
+        display: none;
+
+        @media screen and(min-width: 768px) {
+            display: block;
+        }
 
         .filter-header-wrapper {
             display: flex;
@@ -26,8 +57,13 @@
     
           .filter-inner-wrap {
             display: flex;
-            gap: 2px;
+            gap: 15px;
+            align-items: center;
           }
+      }
+
+      .filter-chevron-down{
+        font-size: 7px;
       }
 
 
@@ -104,6 +140,7 @@
         border: 1px solid gray;
         padding: 6px 11px;
         color: $textColor;
+
         &:hover{
             background-color: grey;
             transition: all 0.9s;

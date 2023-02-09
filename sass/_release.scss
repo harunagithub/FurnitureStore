@@ -1,0 +1,38 @@
+
+.releases{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .release-image-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+
+        @media screen and(min-width: 1024px) {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+    .image-release-column{
+        margin-bottom: 20px;
+    }
+    .image-release-img{
+        margin-bottom: 8px;
+    }
+    .image-release-title{
+        font-size: 14px;
+        font-family: $fontFamily;
+        font-weight: $semiBold;
+        margin-bottom: 8px;
+    }
+    .image-release-price{
+        margin-bottom: 8px;
+        color: $textColor;
+        // font-weight: 600;
+        font-family: $fontFamily2;
+        font-size: 13px;
+    }
+    .release-icon{
+        color: $textColor;
+        font-size: 12px;
+    }
+}
+

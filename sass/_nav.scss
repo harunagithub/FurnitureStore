@@ -34,13 +34,25 @@
         height: 31px;
       }
     &-menu{
-        @media screen and (min-width: 1024px) {
+        color: #fff;
+        font-size: 30px;
+        @media screen and (min-width: 768px) {
             display: none;
         }
       }
 
+      .chevron-right{
+        display: none;
+
+        @media screen and (min-width: 768px) {
+            display: block;
+        }
+      }
+
       .cart-menu{
-        @media screen and (max-width: 768px) {
+        display: block;
+        
+        @media screen and (mmin-width: 768px) {
             display: none;
         }
       }

@@ -20,12 +20,13 @@
  
 .cart-menu, .chevron-right, .hidden, .cart-menu {
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .chevron-right {
     background-color: #fdda4c;
     color: #000;
+
   }
 
   .hidden{
@@ -37,10 +38,8 @@
 
   .search {
     display: none;
-    padding: 8px 31px;
-    // padding: 8px 5px;
-    // max-width: 155px;
-    // width: 100%;
+    padding: 4px 31px 7px 6px;
+ 
         @media screen and(min-width: 1024px) {
             display: block;
           }
