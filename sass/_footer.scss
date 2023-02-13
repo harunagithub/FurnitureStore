@@ -10,11 +10,13 @@
         align-items: center;
         @media screen and (min-width: 768px) {
             display: grid;
-            grid-template-columns: 50% 50%;
+            grid-template-columns: 1fr 1fr;
+            align-items: baseline;
         }
         @media screen and (min-width: 1024px) {
             display: grid;
             grid-template-columns: 25% 25% 25% 25%;
+            
         }
     }
 
@@ -32,8 +34,9 @@
     &-link {
         text-decoration: none;
         color: rgb(139, 134, 152);
-        font-size: 16px;
-        font-family: $regular;
+        font-size: 14px;
+        font-family: $fontFamily2;
+        line-height: 1.4;
 
         &:hover{
             color: #000;
@@ -44,6 +47,8 @@
       &-copyright {
         text-align: center;
         color: $textColor;
+        font-size: 14px;
+        font-family: $fontFamily2;
 
       }
 

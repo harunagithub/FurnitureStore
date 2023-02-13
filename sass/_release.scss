@@ -2,12 +2,52 @@
 .releases{
     padding-top: 50px;
     padding-bottom: 50px;
+
+    .release-header-title-wrapper {
+        margin-bottom: 10px;
+
+        @media screen and (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+      }
+      .release-header-column{
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      .release-header-title {
+        font-size: 25px;
+        font-family: $fontFamily;
+        // text-align: center;
+    }
+
+      .release-header-link{
+        border-bottom: 1px solid $textColor;
+        width: 100%;
+        max-width: 92px;
+        text-decoration: none;
+        color: #000;
+        font-family: $fontFamily;
+        font-size: 15px;
+        text-align: center;
+
+        &:hover{
+            border-bottom: 1px solid #000;
+            width: 100%;
+            max-width: 92px;
+            transition: all 0.7s;
+
+        }
+      }
+
     .release-image-wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 15px;
 
-        @media screen and(min-width: 1024px) {
+        @media screen and (min-width: 1024px) {
             grid-template-columns: 1fr 1fr 1fr 1fr;
         }
     }
@@ -36,3 +76,100 @@
     }
 }
 
+
+.enhances {
+    padding-top: 50px;
+
+.enhance-header-wrapper {
+    padding-bottom: 30px;
+    @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+    }
+}
+
+.enhance-header-title {
+    text-transform: uppercase;
+    font-family: $fontFamily2;
+    font-size: 13px;
+}
+
+.enhance-header-column {
+    margin-bottom: 20px;
+  }
+
+.enhance-border-empty {
+    position: relative;
+    display: block;
+
+    &::after{
+        content: "";
+        position: absolute;
+        background-color: #fdda4c;
+        width: 15%;
+        height: 1px;
+        top: 0;
+        left: 0;
+
+    }
+}
+
+.exprience-wrapper {
+    
+    @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+
+    }
+}
+
+.experience-title {
+    font-size: 28px;
+    font-family: $fontFamily;
+    padding-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 32px;
+    }
+    @media screen and (min-width: 768px) {
+        font-size: 40px;
+    }
+}
+
+.experience-text {
+    font-size: 13px;
+    color: $textColor;
+    font-family: $fontFamily2;
+    line-height: 1.5;
+    padding-bottom: 30px;
+
+}
+
+.experience-link{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: $fontFamily2;
+    font-size: 14px;
+    border-bottom: 1px solid $buttonBgColor;
+    width: 100%;
+    max-width: 92px;
+    height: 18px;
+
+
+    &:hover{
+    border-bottom: 1px solid  #000;
+        width: 100%;
+        max-width: 92px;
+        transition: all 0.7s;
+    }
+
+
+    }
+}
+
+
+  

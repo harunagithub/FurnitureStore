@@ -1,15 +1,17 @@
 
 
 .mason-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 65px;
+  @media screen and (min-width: 768px) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 65px;
+}
   }
 .mason-link-wrap {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    // gap: 10px;
   }
   .mason-decription{
     font-size: 13px;
@@ -24,9 +26,30 @@
     font-family: $fontFamily;
     line-height: 1.2;
 
-    @media screen and(min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         font-size: 32px;
     }
+  }
+
+  .link-arrow{
+    border-bottom: 1px solid $buttonBgColor;
+    width: 100%;
+    max-width: 100px;
+    text-decoration: none;
+    color: #000;
+    font-family: $fontFamily2;
+    font-weight: $semiBold;
+    font-size: 15px;
+    height: 18px;
+    text-align: center;
+
+    &:hover{
+      border-bottom: 1px solid #000;
+      width: 100%;
+      max-width: 100px;
+      transition: all 0.7s;
+
+  }
   }
 
   .setups{
@@ -45,10 +68,10 @@
     line-height: 1.3;
     margin-bottom: 25px;
 
-    @media screen and(min-width: 768px) {
+    @media screen and (min-width: 768px) {
         font-size: 23px;
     }
-    @media screen and(min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
         font-size: 26px;
     }
 
@@ -68,6 +91,8 @@
     text-decoration-color: $buttonBgColor;
     color: rgb(38, 34, 47);
     font-weight: $semiBold;
+    align-items: center;
+    gap: 10px;
    
 
     &:hover{
@@ -87,12 +112,12 @@
 }
 
   .showcase-img-centered {
-    margin-bottom: 10px;
+    margin-bottom: 35px;
   }
 
   .setup-img-list {
     
-    @media screen and(min-width: 768px) {
+    @media screen and (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 65px;

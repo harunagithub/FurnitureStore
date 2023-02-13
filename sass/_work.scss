@@ -7,14 +7,14 @@
         font-family: $fontFamily;
         color: rgb(139, 134, 152);
 
-        @media screen and(min-width:1024px) {
+        @media screen and (min-width:1024px) {
             font-size: 15px;
         }
       }
     .work-column-wrapper {
         margin-bottom: 30px;
 
-        @media screen and(min-width: 768px) {
+        @media screen and (min-width: 768px) {
             display: grid;
             grid-template-columns: 50% 50%;
         }
@@ -22,7 +22,7 @@
 
       .work-column-img-wrapper {
         
-       @media screen and(min-width: 768px) {
+       @media screen and (min-width: 768px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 15px;
@@ -35,10 +35,10 @@
         margin-bottom: 10px;
 
 
-        @media screen and(min-width: 768px) {
+        @media screen and (min-width: 768px) {
             font-size: 32px;
         }
-        @media screen and(min-width: 1024px) {
+        @media screen and (min-width: 1024px) {
             font-size: 40px;
         }
       }
@@ -48,7 +48,7 @@
         font-size: 14px;
         line-height: 1.5;
 
-        @media screen and(min-width: 768px) {
+        @media screen and (min-width: 768px) {
             font-size: 16px;
             width: 100%;
             max-width: 521px;
@@ -68,10 +68,10 @@
         margin-bottom: 10px;
         line-height: 1.5;
 
-        @media screen and(min-width: 768px) {
+        @media screen and (min-width: 768px) {
             font-size: 23px;
         }
-        @media screen and(min-width: 1024px) {
+        @media screen and (min-width: 1024px) {
             font-size: 25px;
         }
       }

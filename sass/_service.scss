@@ -33,7 +33,7 @@
         margin-bottom: 20px;
         margin-top: 20px;
 
-        @media screen and(min-width: 760px) {
+        @media screen and (min-width: 760px) {
             display: flex;
             gap: 15px;
         }
@@ -43,7 +43,7 @@
         font-size: 14px;
         font-family: $fontFamily;
 
-        @media screen and(min-width: 768px) {
+        @media screen and (min-width: 768px) {
             font-size: 18px;
         }
       }

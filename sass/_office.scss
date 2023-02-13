@@ -8,7 +8,7 @@
     position: relative;
     display: block;
 
-    .ofice-container{
+    .office-container{
       position: relative;
       height: 100%;
     }
@@ -90,7 +90,7 @@
   font-family: $fontFamily;
   margin-bottom: 16px;
 
-  @media screen and(min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     font-size: 17px;
   }
 }
@@ -101,13 +101,13 @@
   font-size: 30px;
   margin-bottom: 16px;
 
-  @media screen and(min-width: 768px) {
+  @media screen and (min-width: 768px) {
     font-size: 32px;
     width: 100%;
     max-width: 300px;
   }
 
-  @media screen and(min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     font-size: 40px;
   }
 }

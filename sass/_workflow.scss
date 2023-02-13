@@ -1,0 +1,48 @@
+.workflows{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+    .workflow-wrapper {
+
+        @media screen and (min-width: 768px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 57px;
+        }
+      }
+
+      .workflow-column{
+        margin-bottom: 20px;
+      }
+
+    .workflow-header-title {
+        font-size: 13px;
+        font-family: $fontFamily;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+}
+
+.workflow-sub-header-title {
+    font-size: 32px;
+    font-family: $fontFamily;
+    font-size: 28px;
+    margin-bottom: 40px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 32px;
+    }
+    @media screen and (min-width: 1024px) {
+        font-size: 40px;
+    }
+  }
+  .workflow-text {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: $fontFamily2;
+    color: $textColor;
+    margin-bottom: 30px;
+  }
+}

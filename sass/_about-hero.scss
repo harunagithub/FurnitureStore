@@ -17,7 +17,7 @@
     .hero-banner-title-wrapper {
       margin-bottom: 25px;
 
-      @media screen and(min-width: 768px) {
+      @media screen and (min-width: 768px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: baseline;
@@ -31,10 +31,10 @@
         font-family: $fontFamily;
         margin-bottom: 3px;
 
-        @media screen and(min-width: 768px) {
+        @media screen and (min-width: 768px) {
             font-size: 56px;
         }
-        @media screen and(min-width: 1024px) {
+        @media screen and (min-width: 1024px) {
             font-size: 53px;
         }
       }
@@ -62,7 +62,7 @@
     }
 
       .hero-banner-text-wrapper {
-        @media screen and(min-width: 768px) {
+        @media screen and (min-width: 768px) {
           display: grid;
           grid-template-columns: 1fr 1fr;
           align-items: baseline;

@@ -1,3 +1,42 @@
 .showcases{
-    
+    padding-top: 200px;
+
+    .showcase-header-title {
+        font-size: 12px;
+        font-family: $fontFamily;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        color: rgb(38, 34, 47);
+    }
+
+    .showcase-header-second-title {
+        text-align: center;  
+        font-size: 28px;
+        font-family: $fontFamily; 
+        
+        @media screen and (min-width: 768px) {
+            font-size: 32px;
+        }
+        @media screen and (min-width: 1024px) {
+            font-size: 40px;
+        }
+    }
+
+    .showcase-border {
+    position: relative;
+    display: block;
+    margin-top: 80px;
+
+    &::after{
+        content: "";
+        position: absolute;
+        background-color: #fdda4c;
+        width: 15%;
+        height: 2px;
+        top: -28px;
+        left: 43%;
+
+    }
+    }
 }
