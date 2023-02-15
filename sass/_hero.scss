@@ -4,13 +4,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    padding-top: 35px;
-    min-height: 500px;
+    // padding-top: 35px;
+    min-height: 600px;
 }
 .main-list-wrapper {
         display: flex;
         justify-content: space-between;
         align-content: center;
+        margin-top: 20px;
 
 .header-column-1 {
     display: flex;
@@ -54,7 +55,7 @@
 
 .hero-text-content-wrapper{
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 46%;
   transform: translate(-50%, -50%);
 }

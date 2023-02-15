@@ -7,61 +7,40 @@
     min-height: 300px;
     position: relative;
     display: block;
-
-    .office-container{
-      position: relative;
-      height: 100%;
-    }
-
-    &::after{
-        content: "";
-        position: absolute;
-        background: #fff;
-        width: 100%;
-        height: 1px;
-        top: 145px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        margin-top: 15px;
-        max-width: 1200px;
-      }
 }
+
+.office-hero{
+  position: relative;
+  display: block;
+
+  &::after{
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 1px;
+    top: 160px;
+    left: 0;
+  }
+}
+
 .offices-2{
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/images/office-2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 70vh;
-    position: relative;
-    display: block;
-    min-height: 300px;
-
-    &::after{
-        content: "";
-        position: absolute;
-        background: #fff;
-        width: 100%;
-        height: 1px;
-        top: 235px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        margin-top: 15px;
-        max-width: 1200px;
-      }
+    min-height: 300px;  
 }
 
 .office-column {
  padding-top: 185px;
- position: absolute;
   top: 25%;
-  width: 95%;
-  // max-width: 730px;
 
   @media screen and (min-width: 768px) {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    // padding-top: 200px;
+    justify-content: space-between;
   }
 }
 

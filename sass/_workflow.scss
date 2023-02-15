@@ -1,9 +1,26 @@
 .workflows{
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 60px
 
+}
 
-    .workflow-wrapper {
+.work-hero-border{
+  position: relative;
+  display: block;
+
+  &::after{
+    content: "";
+    position: absolute;
+    background-color: $buttonBgColor;
+    width: 19%;
+    height: 1px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+    
+    .workflow-wrapper{
 
         @media screen and (min-width: 768px) {
             display: grid;
@@ -11,13 +28,13 @@
             align-items: center;
             gap: 57px;
         }
-      }
+    }
 
-      .workflow-column{
+.workflow-column{
         margin-bottom: 20px;
-      }
+    }
 
-    .workflow-header-title {
+.workflow-header-title {
         font-size: 13px;
         font-family: $fontFamily;
         text-transform: uppercase;
@@ -45,4 +62,8 @@
     color: $textColor;
     margin-bottom: 30px;
   }
-}
+
+
+
+
+
