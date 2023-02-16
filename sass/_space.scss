@@ -54,7 +54,7 @@
       }
 
       .space-btn {
-        padding: 12px 24px;
+        padding: 15px 36px;
         display: flex;
         align-items: flex-end;
         gap: 10px;
@@ -63,7 +63,13 @@
         border-radius: 5px;
         margin: 0 auto;
         margin-top: 30px;
+        font-family: $fontFamily2;
+        font-weight: $regular;
         
+        &:hover{
+            background: #a0f7ac;
+            transition: all 0.9s;
+          }
       }
 
 }

@@ -42,14 +42,23 @@
       .service-title {
         font-size: 14px;
         font-family: $fontFamily;
+        color: $headerTxetColor;
 
         @media screen and (min-width: 768px) {
             font-size: 18px;
         }
       }
 
+      .service-description {  
+        font-size: 13px;
+        font-family: $fontFamily2;
+        color: $textColor;
+        margin-top: 5px;
+        
+    }
+
       i{
-        color: #23EF3F;
+        color: #fdda4c;
         font-size: 18px;
         margin-bottom: 10px;
       }

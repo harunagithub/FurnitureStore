@@ -17,9 +17,7 @@
         }
 
         @media screen and (min-width: 768px) {
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-          
-           
+          grid-template-columns: 1fr 1fr 1fr 1fr; 
         }
        
     }
@@ -40,12 +38,17 @@
         margin-bottom: 20px;
       }
 
+      &-icon-wrap {
+        margin: 0 auto;
+        display: block ruby;
+      }
+
     &-link {
         text-decoration: none;
         color: rgb(139, 134, 152);
         font-size: 14px;
         font-family: $fontFamily2;
-        line-height: 1.4;
+        line-height: 1.1;
 
         &:hover{
             color: #000;
@@ -60,7 +63,7 @@
         font-family: $fontFamily2;
       }
 
-      .footer-list.footer-icon-list {
+      &-list.footer-icon-list {
         margin-top: 37px;
       }
       &-item i{

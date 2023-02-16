@@ -79,7 +79,7 @@ table {
 .nav--link {
   color: #fff;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
 }
 .nav-logo-image {
@@ -150,7 +150,8 @@ table {
 }
 .main-list-wrapper .search {
   display: none;
-  padding: 4px 31px 7px 6px;
+  padding: 10px 31px 10px 6px;
+  border: none;
 }
 @media screen and (min-width: 1024px) {
   .main-list-wrapper .search {
@@ -165,7 +166,7 @@ table {
 
 .hero-text-content-wrapper {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 46%;
   transform: translate(-50%, -50%);
 }
@@ -182,7 +183,7 @@ table {
   color: #fff;
   font-family: "Lexend", sans-serif;
   font-size: 38px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   width: 100%;
 }
 @media screen and (min-width: 500px) {
@@ -216,6 +217,7 @@ table {
   gap: 10px;
   font-weight: bold;
   letter-spacing: 1px;
+  margin-bottom: 60px;
 }
 
 button:hover {
@@ -314,12 +316,16 @@ button:hover {
   font-family: "Lexend", sans-serif;
   margin-bottom: 20px;
 }
+.footer-icon-wrap {
+  margin: 0 auto;
+  display: block ruby;
+}
 .footer-link {
   text-decoration: none;
   color: rgb(139, 134, 152);
   font-size: 14px;
   font-family: "Inter", sans-serif;
-  line-height: 1.4;
+  line-height: 1.1;
 }
 .footer-link:hover {
   color: #000;
@@ -331,7 +337,7 @@ button:hover {
   font-size: 14px;
   font-family: "Inter", sans-serif;
 }
-.footer .footer-list.footer-icon-list {
+.footer-list.footer-icon-list {
   margin-top: 37px;
 }
 .footer-item i {
@@ -464,18 +470,24 @@ button:hover {
   display: block;
   text-align: center;
   margin-bottom: 50px;
-  padding: 8px 20px;
+  padding: 15px 25px;
   display: flex;
   align-items: center;
   gap: 20px;
   background: #fdda4c;
   border: none;
+  border-radius: 4px;
+}
+.arrivals .arrival-viewall-btn:hover {
+  background: #a0f7ac;
+  transition: all 0.9s;
 }
 .arrivals .arrival-viewall-link {
   text-decoration: none;
   font-size: 14px;
-  font-family: 600;
+  font-family: "Inter", sans-serif;
   color: rgb(38, 34, 47);
+  font-weight: 600;
 }
 
 /* Parent Container */
@@ -561,14 +573,21 @@ button:hover {
 .services .service-title {
   font-size: 14px;
   font-family: "Lexend", sans-serif;
+  color: rgb(38, 34, 47);
 }
 @media screen and (min-width: 768px) {
   .services .service-title {
     font-size: 18px;
   }
 }
+.services .service-description {
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  color: rgb(139, 134, 152);
+  margin-top: 5px;
+}
 .services i {
-  color: #23EF3F;
+  color: #fdda4c;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -671,6 +690,8 @@ button:hover {
   display: flex;
   gap: 5px;
   align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 .office-btn:hover {
   background: #ffffff;
@@ -863,7 +884,7 @@ button:hover {
   }
 }
 .spaces .space-btn {
-  padding: 12px 24px;
+  padding: 15px 36px;
   display: flex;
   align-items: flex-end;
   gap: 10px;
@@ -872,6 +893,12 @@ button:hover {
   border-radius: 5px;
   margin: 0 auto;
   margin-top: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.spaces .space-btn:hover {
+  background: #a0f7ac;
+  transition: all 0.9s;
 }
 
 .about {
@@ -1001,7 +1028,7 @@ button:hover {
 }
 @media screen and (min-width: 768px) {
   .stories .story-column-description {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 .stories .story-img-container {
@@ -1061,7 +1088,8 @@ button:hover {
   }
 }
 .perfects .perfect-text {
-  font-size: 15px;
+  font-size: 14px;
+  line-height: 1.4;
   color: rgb(139, 134, 152);
   font-family: "Inter", sans-serif;
 }
@@ -1357,6 +1385,18 @@ button:hover {
   display: flex;
   gap: 15px;
   align-items: center;
+}
+
+.filter-header-title-1 {
+  font-size: 14px;
+  color: rgb(139, 134, 152);
+  font-family: "Lexend", sans-serif;
+}
+
+.filter-header-title-2 {
+  font-size: 14px;
+  color: rgb(139, 134, 152);
+  font-family: "Lexend", sans-serif;
 }
 
 .filter-chevron-down {
