@@ -1311,11 +1311,12 @@ button:hover {
 }
 .form .form-btn {
   margin-top: 15px;
-  padding: 10px 31px;
+  padding: 14px 34px;
   background-color: #fdda4c;
   border: none;
   font-family: "Lexend", sans-serif;
   font-size: 13px;
+  border-radius: 3px;
 }
 .form .form-btn:hover {
   background-color: aquamarine;

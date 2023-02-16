@@ -160,11 +160,12 @@
 
       .form-btn {
         margin-top: 15px;
-        padding: 10px 31px;
+        padding: 14px 34px;
         background-color: $buttonBgColor;
         border: none;
         font-family: $fontFamily;
         font-size: 13px;
+        border-radius: 3px;
 
         &:hover{
           background-color: aquamarine;
@@ -173,9 +174,9 @@
       }
 }
 
-.maps{
-      iframe {
-        width: 100%;
+  .maps{
+        iframe {
+          width: 100%;
       }
 }
 
